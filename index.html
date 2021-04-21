@@ -14,7 +14,7 @@
           <p id="description" class="">Thank you for taking the time to help us improve the       platform</p>
         </div>
         <div id="div-form">
-          <form id="survey-form" action="" method="POST" novalidate>
+          <form id="survey-form" action="enviar.php" method="POST" novalidate>
             
             <label id="name-label" for="name" class="label">Name</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your name" class="input" required>
@@ -23,13 +23,13 @@
             <label id="email-label" for="email" class="label">Email</label><br>
             <input type="email" id="email" name="email" placeholder="Enter your email" class="input" required><br>
             
-            <label id="number-label" label="age" class="label">Age</label><br>
+            <label id="number-label" class="label">Age</label><br>
             <input type="number" id="age" name="age" placeholder="Enter your age" max="150" min="1" class="input">
             
             <label class="label">
               Which option best describes your current role?
             </label><br>
-            <select id="dropdown" name="role">
+            <select id="dropdown1" name="role">
               <option disabled="" selected="" value="">Select current role</option>
               <option value="student">Student</option>
               <option value="job">Full Time Job</option>
@@ -51,10 +51,10 @@
             <label class="label">
               What is your favorite feature of freeCodeCamp?
             </label><br>
-            <select id="dropdown" name="role">
+            <select id="dropdown2" name="role">
               <option disabled="" selected="" value="">Select an role</option>
               <option value="challenges">Challenges</option>
-              <optin value="projects">Projects</optin>
+              <option value="projects">Projects</option>
               <option value="community">Community</option>
               <option value="openSource">Open Source</option>
             </select>  
@@ -64,37 +64,37 @@
             </label><br>
             
             <input type="checkbox" id="frontend" name="improved" value="frontend" class="checkb">
-            <label for="">Front-end Projects</label><br>
+            <label for="frontend">Front-end Projects</label><br>
             
             <input type="checkbox" id="backend" name="improved" value="backend" class="checkb">
-            <label for="">Back-end Projects</label><br>
+            <label for="backend">Back-end Projects</label><br>
             
             <input type="checkbox" id="data" name="improved" value="data" class="checkb">
-            <label for="">Data Visualization</label><br>
+            <label for="data">Data Visualization</label><br>
             
             <input type="checkbox" id="challenges" name="improved" value="challenges" class="checkb">
-            <label for="">Challenges</label><br>
+            <label for="challenges">Challenges</label><br>
             
             <input type="checkbox" id="oScommunity" name="improved" value="oScommunity" class="checkb">
-            <label for="">Open Source Community</label><br>
+            <label for="oScommunity">Open Source Community</label><br>
             
             <input type="checkbox" id="gitter" name="improved" value="gitter" class="checkb">
-            <label for="">Gitter help rooms</label><br>
+            <label for="gitter">Gitter help rooms</label><br>
             
             <input type="checkbox" id="videos" name="improved" value="videos" class="checkb">
-            <label for="">Videos</label><br>
+            <label for="videos">Videos</label><br>
             
             <input type="checkbox" id="meetups" name="improved" value="meetups" class="checkb">
-            <label for="">City Meetups</label><br>
+            <label for="meetups">City Meetups</label><br>
             
             <input type="checkbox" id="wiki" name="improved" value="wiki" class="checkb">
-            <label for="">Wiki</label><br>
+            <label for="wiki">Wiki</label><br>
             
             <input type="checkbox" id="forum" name="improved" value="forum" class="checkb">
-            <label for="">Forum</label><br>
+            <label for="forum">Forum</label><br>
             
             <input type="checkbox" id="addCourses" name="improved" value="addCourses" class="checkb">
-            <label for="">Additional Courses</label><br><br>
+            <label for="addCourses">Additional Courses</label><br><br>
             
             <label class="label">
               Any comments or suggestions?
